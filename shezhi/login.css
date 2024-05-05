@@ -1,0 +1,160 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 13px;
+    color:#3C3C3C;
+    box-sizing: border-box;
+    
+}
+.header{
+    background-color: rgba(246, 241, 241, 0.763);
+    height:45px;
+    padding-top: 10px;
+}
+.top{
+    position: relative;
+    
+    
+   
+}
+.box1{
+    width: 800px;
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 200px;
+}
+.box2{
+    width: 800px;
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 75px;
+}
+.box1 .nav{
+    display: flex;
+}
+.box1 .nav li{
+    display: flex;
+    padding: 0 14px;
+}
+.box2 .nav{
+    display: flex;
+    margin-left: 100px;
+}
+.box2 .nav li{
+    display: flex;
+    padding: 0 14px;
+}
+
+.orange{
+    color: orange;
+}
+.head_img{
+    width: 100%;
+    float: left;
+    background-color: orange;
+}
+.h_i{
+    margin-left: 200px;
+}
+.search{
+    background:url(../image1/BG.avif);
+    position: relative;
+    width:auto;
+    height: 100px;
+    padding-top: 10px;
+}
+.orangelogo{
+    float: left;
+    padding-left: 50px;
+}
+
+.ilogo{
+    width: 107px;
+    height: 67px;
+}
+.orangeline{
+    float: left;
+    height: 55px;
+    border-left: 2px solid #ff5f00;
+    width: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.orangeword{
+    float: left;
+    height: 64px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.orangeword span{
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ff5f00;
+}
+.midbody{
+    background-color: white;
+}
+.logo{
+    width: 1200px;
+    height: 50px;
+    margin-left: 200px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.logo img{
+    width: 80px;
+    height: 50px;
+}
+.mid{
+    background: url(../image1/BGlog.jpg);
+    position: relative;
+    width: 100%;
+    height:700px;
+    
+    
+}
+.form{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    width: 600px;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+.logform{
+    display: flex;
+    flex-direction: column;
+}
+.logform input{
+    width: 300px;
+    height: 50px;
+    border-color: darkgrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.logform p{
+    font-size: 16px;
+}
+.logform span{
+    width: 400px;
+    height: 30px;
+}
+.logform button{
+    width: 400px;
+    height: 50px;
+    background-color: #ff5f00;
+    color: white;
+    border-radius: 10px;
+}
